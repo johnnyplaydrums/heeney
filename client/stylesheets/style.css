@@ -1,0 +1,162 @@
+html, body {
+	height: 100%;
+	background-color: #000;
+}
+.image-wrap {
+	background-image: url('images/heeney.png');
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+/*****************************/
+/********   NAVBAR  **********/
+/*****************************/
+
+.navbar .container {
+	padding-top: 15px;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-static-top {
+	margin: 0;
+}
+
+.navbar img {
+	width: 165px;	
+}
+
+.navbar .navbar-right li {
+	background-color: gray;
+	opacity: 0.7;
+	color: #fff;
+	width: 100px;
+	height: 36px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.navbar .navbar-right li:hover{
+	background-color: #A0A0A0; 
+	cursor: pointer;
+}
+
+.navbar .navbar-right li p {
+	padding: 8px;
+	margin: 0;
+} 
+
+.navbar .header .navbar-toggle {
+	border-color: #fff;
+}
+
+.navbar .header .navbar-toggle span {
+	background-color: #fff;
+}
+
+.navbar-collapse .navbar-right {
+	text-align: center;	
+}
+
+/*****************************/
+/********     BIO   **********/
+/*****************************/
+
+.bio-text {
+	display: none;
+	max-width: 900px;
+	max-height: 255px;
+	overflow: overlay;
+	margin: 10px auto;
+	background-color: gray;
+	opacity: 0.9;
+	color: #fff;
+	padding: 12px 12px;
+	border-radius: 10px;
+}
+
+
+/*****************************/
+/********   MUSIC   **********/
+/*****************************/
+
+.music {
+	display: none;
+	max-width: 600px;
+	margin: 0 auto;
+	overflow: overlay;
+}
+
+.music iframe {
+	margin: 15px 0 10px;
+}
+
+/*****************************/
+/********    SHOW   **********/
+/*****************************/
+
+.shows {
+	display: none;
+	background-color: gray;
+	opacity: 0.9;
+	margin-top: 25px;
+}
+
+body {
+	overflow: overlay!important;
+}
+
+/*****************************/
+/********   SOCIAL  **********/
+/*****************************/
+
+.social-media {
+	display: none;
+	text-align: center;
+}
+
+.social-media a {
+	margin: 0 5px;	
+}
+
+
+/******** Responsive Design ********/
+@media (min-width: 768px) {
+	.navbar .header {
+		float: left;
+	}	
+
+	.navbar .navbar-right li {
+		margin: 20px;
+	}
+
+	.navbar img {
+		margin-left: 40px;	
+	}
+
+	.music iframe {
+		margin-top: 50px;	
+	}
+
+	.bio-text {
+		max-height: 465px;		
+		font-size: 16px;
+		padding: 20px 35px;
+		margin-top: 20px;
+	}
+
+	.shows {
+		width: 900px;
+		margin: 25px auto;
+	}
+
+	.social-media {
+		float: right;	
+	}
+
+}
