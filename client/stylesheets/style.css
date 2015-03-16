@@ -105,6 +105,11 @@ html, body {
 	background-color: gray;
 	opacity: 0.9;
 	margin-top: 25px;
+	overflow: overlay;
+}
+
+.shows iframe {
+	overflow: overlay;
 }
 
 body {
