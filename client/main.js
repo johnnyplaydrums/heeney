@@ -28,7 +28,6 @@ main = function() {
 		$(".social-media").slideToggle();	
 	});
 
-
 };
 
 $(document).ready(main);
