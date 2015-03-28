@@ -28,6 +28,8 @@ main = function() {
 		$(".social-media").slideToggle();	
 	});
 
+	//load songkick script
+	$.getScript( "//widget.songkick.com/widget.js");
 };
 
 $(document).ready(main);

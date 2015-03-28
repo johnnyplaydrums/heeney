@@ -101,18 +101,13 @@ html, body {
 
 .shows {
 	display: none;
-	background-color: gray;
+	background-color: #fff;
 	opacity: 0.9;
 	margin-top: 25px;
-	overflow: overlay;
 }
 
-.shows iframe {
-	overflow: overlay;
-}
-
-body {
-	overflow: overlay!important;
+.shows iframe body {
+	color: #fff!important;
 }
 
 /*****************************/
